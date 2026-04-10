@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://picsum.photos/seed/terracotta_vessel/400/500",
+    "name": "The Terra Cotta Vessel",
+    "description": "Wheel-thrown organic stoneware",
+    "price": 124.00
+  },
+  {
+    "image": "https://picsum.photos/seed/obscura_vase/400/500",
+    "name": "Obscura Angular Vase",
+    "description": "Matte black minimalist stoneware",
+    "price": 185.00
+  },
+  {
+    "image": "https://picsum.photos/seed/azure_bottle/400/500",
+    "name": "Azure Fracture Bottle",
+    "description": "Hand-glazed coastal blue ceramic",
+    "price": 210.00
+  },
+  {
+    "image": "https://picsum.photos/seed/alabaster_pair/400/500",
+    "name": "Ribbed Alabaster Pair",
+    "description": "Soft-textured white stoneware set",
+    "price": 98.00
+  },
+  {
+    "image": "https://picsum.photos/seed/kintsugi_form/400/500",
+    "name": "Charred Kintsugi Form",
+    "description": "Raku-fired with gold lacquer repairs",
+    "price": 340.00
+  },
+  {
+    "image": "https://picsum.photos/seed/rose_vessel/400/500",
+    "name": "Rose Bloom Vessel",
+    "description": "Pastel-striped thrown porcelain",
+    "price": 115.00
+  },
+  {
+    "image": "https://picsum.photos/seed/bizen_jar/400/500",
+    "name": "Indigo Bizen Jar",
+    "description": "Wood-fired traditional Japanese ware",
+    "price": 275.00
+  },
+  {
+    "image": "https://picsum.photos/seed/sage_crock/400/500",
+    "name": "Speckled Sage Crock",
+    "description": "Salt-glazed farmhouse stoneware",
+    "price": 89.00
+  },
+  {
+    "image": "https://picsum.photos/seed/ash_platter/400/500",
+    "name": "Ash Drift Platter",
+    "description": "Ash-glazed wide serving stoneware",
+    "price": 165.00
+  },
+  {
+    "image": "https://picsum.photos/seed/celadon_bowl/400/500",
+    "name": "Midnight Celadon Bowl",
+    "description": "Deep celadon glazed porcelain bowl",
+    "price": 148.00
+  },
+  {
+    "image": "https://picsum.photos/seed/linen_throw/400/500",
+    "name": "Hammam Linen Throw",
+    "description": "Striped 100% Turkish woven linen",
+    "price": 95.00
+  },
+  {
+    "image": "https://picsum.photos/seed/shibori_runner/400/500",
+    "name": "Shibori Indigo Runner",
+    "description": "Hand-dyed resist-patterned cotton",
+    "price": 230.00
+  },
+  {
+    "image": "https://picsum.photos/seed/desert_cushion/400/500",
+    "name": "Desert Wool Cushion",
+    "description": "Hand-spun Berber-style wool cushion",
+    "price": 78.00
+  },
+  {
+    "image": "https://picsum.photos/seed/jute_rug/400/500",
+    "name": "Loom Cut Jute Rug",
+    "description": "Natural flat-weave jute floor rug",
+    "price": 320.00
+  },
+  {
+    "image": "https://picsum.photos/seed/batik_canopy/400/500",
+    "name": "Gauze Batik Canopy",
+    "description": "Silk-cotton batik draped canopy",
+    "price": 185.00
+  },
+  {
+    "image": "https://picsum.photos/seed/rattan_stool/400/500",
+    "name": "Rattan Low Stool",
+    "description": "Woven rattan and teak accent stool",
+    "price": 260.00
+  },
+  {
+    "image": "https://picsum.photos/seed/paperclay_lamp/400/500",
+    "name": "Paperclay Lamp Base",
+    "description": "Sculptural paperclay with linen shade",
+    "price": 380.00
+  },
+  {
+    "image": "https://picsum.photos/seed/brass_hook/400/500",
+    "name": "Bent Brass Hook Rail",
+    "description": "Hand-bent solid brass wall hooks",
+    "price": 175.00
+  },
+  {
+    "image": "https://picsum.photos/seed/cane_chair/400/500",
+    "name": "Cane Meditation Chair",
+    "description": "Open-weave cane and solid beech",
+    "price": 640.00
+  },
+  {
+    "image": "https://picsum.photos/seed/neroli_oil/400/500",
+    "name": "Neroli Ritual Oil",
+    "description": "Cold-pressed neroli and jojoba blend",
+    "price": 68.00
+  },
+  {
+    "image": "https://picsum.photos/seed/beeswax_candle/400/500",
+    "name": "Beeswax Pillar Candle",
+    "description": "Raw unscented pure beeswax pillar",
+    "price": 42.00
+  },
+  {
+    "image": "https://picsum.photos/seed/rose_serum/400/500",
+    "name": "Fermented Rose Serum",
+    "description": "Lacto-fermented rose and rosehip serum",
+    "price": 112.00
+  },
+  {
+    "image": "https://picsum.photos/seed/dried_botanicals/400/500",
+    "name": "Dried Botanicals Bundle",
+    "description": "Wild-harvested Tuscan dried botanicals",
+    "price": 55.00
+  },
+  {
+    "image": "https://picsum.photos/seed/incense_holder/400/500",
+    "name": "Smoked Clay Incense Holder",
+    "description": "Smoke-fired altar clay dish",
+    "price": 64.00
+  }
+]

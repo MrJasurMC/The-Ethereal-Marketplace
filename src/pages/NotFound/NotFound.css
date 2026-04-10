@@ -1,0 +1,158 @@
+.notfound-container {
+  width: 100%;
+  background: linear-gradient(90deg, rgba(2, 156, 89, 1) 0%, rgba(0, 186, 137, 1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  color: white;
+}
+
+.notfound-card {
+  width: 100%;
+  max-width: 1280px;
+  padding: 80px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.notfound-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 107, 0, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.notfound-404 {
+  font-size: 180px;
+  font-weight: 900;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 20px;
+  letter-spacing: -10px;
+}
+
+.notfound-pizza-small {
+  position: absolute;
+  top: 60px;
+  right: 80px;
+  font-size: 60px;
+  animation: float 3s ease-in-out infinite;
+}
+
+.notfound-title {
+  font-size: 4.2rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.notfound-subtitle {
+  font-size: 1.65rem;
+  color: #57534E;
+  margin-bottom: 12px;
+}
+
+.notfound-desc {
+  font-size: 1.15rem;
+  color: #ddd;
+  max-width: 520px;
+  margin: 0 auto 50px;
+}
+
+.throw-btn {
+  background: linear-gradient(90deg, rgba(0, 255, 144, 1) 0%, rgba(184, 255, 236, 1) 100%);
+  color: white;
+  border: none;
+  padding: 18px 50px;
+  font-size: 1.35rem;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  box-shadow: rgba(8, 185, 255, 0.15) 0px 48px 100px 0px;
+  transition: all 0.3s;
+}
+
+.throw-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s;
+}
+
+.home-btn {
+  background: white;
+  color: #1a0f08;
+}
+
+.retry-btn {
+  background: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+}
+
+.retry-btn:hover {
+  border-color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.throwing-pizza {
+  position: fixed;
+  bottom: 220px;
+  left: 50%;
+  font-size: 90px;
+  pointer-events: none;
+  z-index: 100;
+  animation: throwPizza 0.85s ease-out forwards;
+}
+
+@keyframes throwPizza {
+  0% {
+    transform: translate(-180px, 120px) rotate(-50deg) scale(0.4);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(420px, -380px) rotate(900deg) scale(1.7);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .notfound-404 {
+    font-size: 120px;
+  }
+
+  .notfound-title {
+    font-size: 3rem;
+  }
+
+  .notfound-card {
+    padding: 60px 20px;
+  }
+}

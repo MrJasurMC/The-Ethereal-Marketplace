@@ -1,0 +1,561 @@
+.home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero {
+    width: 100%;
+    height: 870px;
+    background: linear-gradient(90deg, #F9F9F9 0%, rgba(249, 249, 249, 0.4) 50%, rgba(249, 249, 249, 0) 100%);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    z-index: 999;
+}
+
+.hero-img-wrapper {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.heroimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-card {
+    display: none;
+}
+
+.hero-text {
+    padding: 0px 48px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.hero-text p {
+    text-transform: uppercase;
+    color: #446657;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2.8px;
+}
+
+.hero-text h1 {
+    color: #2F3334;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 61.6px;
+    letter-spacing: -1.12px;
+    vertical-align: middle;
+}
+
+.hero-text span {
+    font-weight: 400;
+    color: #2F3334;
+    font-size: 56px;
+    line-height: 61.6px;
+    letter-spacing: -1.12px;
+    vertical-align: middle;
+}
+
+.hero-btns {
+    display: flex;
+    gap: 30px;
+}
+
+.hero-btns button {
+    width: 211px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+.hero-btn-first {
+    background-color: #446657;
+    color: #E5FFF0;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.hero-btn-first:hover {
+    background-color: #E5FFF0;
+    color: #446657;
+}
+
+.hero-btn-second {
+    color: #2F3334;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.hero-btn-second:hover {
+    background-color: #2F3334;
+    color: #FFFFFF;
+}
+
+.arrivals {
+    width: 100%;
+    padding: 128px 48px;
+    background-color: #F2F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.arrivals-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrivals-logo p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #5B6061;
+}
+
+.arrivals-logo h3 {
+    color: #2F3334;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.arrivals-header a {
+    color: #446657;
+    font-size: 12px;
+    font-weight: 600;
+    display: none;
+}
+
+.arrivals-header p {
+    color: #5B6061;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.arrivals-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.arrivals-card {
+    width: 272px;
+    height: 548px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.arrivals-card img {
+    transition: 0.4s ease-in-out;
+}
+
+.arrivals-card img:hover {
+    transform: translateY(-5px);
+}
+
+.arrivals-card-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrivals-card-header h3 {
+    color: #2F3334;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.arrivals-card-header span {
+    color: #446657;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.arrivals-card p {
+    color: #5B6061;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.arrivals-card-link {
+    color: #446657;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.arrivals-card-link:hover {
+    color: #5B6061;
+    transform: scale(1.1);
+}
+
+.arrivals-btn {
+    width: 272px;
+    height: 60px;
+    border: 2px solid #446657;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    color: #446657;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.arrivals-btn:hover {
+    border: none;
+    background-color: #FFFFFF;
+    color: #292929;
+}
+
+.email {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-color: #F9F9F9;
+}
+
+.email-letter {
+    width: 129px;
+    height: 23px;
+    border-radius: 12px;
+    background-color: #C5EBD7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: #37584A;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.email h3 {
+    color: #2F3334;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.email p {
+    width: 632px;
+    color: #5B6061;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.email-input {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.email-input input {
+    width: 354px;
+    height: 56px;
+    padding: 18px 24px;
+    border-radius: 8px;
+    background-color: #F2F4F4;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+    color: #37584A;
+}
+
+.email-input input:hover {
+    border-color: #005e2a;
+    box-shadow: 0 0 10px #005e2a, 0 0 20px #005e2a;
+}
+
+.email-input input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+}
+
+.email-input button {
+    width: 141px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    background-color: #446657;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-size: 16px;
+    color: #E5FFF0;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.email-input button:hover {
+    background-color: #E5FFF0;
+    color: #446657;
+}
+
+.email span {
+    color: #5B6061;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.journal {
+    width: 342px;
+    height: 311px;
+    margin-top: 20px;
+    padding: 32px;
+    border-radius: 32px;
+    background-color: #C5EBD7;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+
+.journal span {
+    color: #37584A;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.journal h3 {
+    color: #37584A;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.journal p {
+    color: #37584ACC;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.journal button {
+    width: 155px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #446657;
+    color: #E5FFF0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+@media (max-width: 390px) {
+
+    .hero {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background: none;
+        padding: 28px 20px 0;
+        gap: 0;
+    }
+
+    .hero-text {
+        order: 1;
+        padding: 0;
+        gap: 12px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-text p {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.6px;
+    }
+
+    .hero-text span {
+        font-size: 32px;
+        line-height: 38px;
+        letter-spacing: -0.6px;
+    }
+
+    .hero-btns {
+        display: none;
+    }
+
+    .hero-img-wrapper {
+        width: 100%;
+        height: 285px;
+        margin-top: 24px;
+        order: 2;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .heroimage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-card {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+        background: rgba(255, 255, 255, 0.96);
+        backdrop-filter: blur(8px);
+        padding: 12px 14px;
+        border-radius: 10px;
+        width: 168px;
+    }
+
+    .hero-card p {
+        font-size: 9px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #446657;
+        margin: 0;
+    }
+
+    .hero-card h4 {
+        font-size: 13px;
+        font-weight: 600;
+        color: #2F3334;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .arrivals {
+        padding: 40px 16px 48px;
+        gap: 24px;
+    }
+
+    .arrivals-header {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .arrivals-logo p {
+        font-size: 10px;
+    }
+
+    .arrivals-logo h3 {
+        font-size: 22px;
+    }
+
+    .arrivals-header>p {
+        display: none;
+    }
+
+    .arrivals-header a {
+        display: flex;
+        text-decoration: underline;
+    }
+
+    .arrivals-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .arrivals-card {
+        width: 100%;
+        height: auto;
+        gap: 8px;
+    }
+
+    .arrivals-card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .arrivals-card-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2px;
+    }
+
+    .arrivals-card-header h3 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+
+    .arrivals-card-header span {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .arrivals-card p {
+        display: none;
+    }
+
+    .arrivals-card-link {
+        display: none;
+    }
+
+    .arrivals-btn {
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .journal {
+        display: flex;
+    }
+}
