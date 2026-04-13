@@ -423,6 +423,19 @@
     text-transform: uppercase;
 }
 
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #446657;
+}
+
 @media (max-width: 390px) {
 
     .hero {
