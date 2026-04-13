@@ -155,10 +155,45 @@
     font-weight: 400;
 }
 
+.arrivals-carousel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.arrivals-carousel-viewport {
+    width: calc(4 * 272px + 3 * 32px);
+    overflow: hidden;
+}
+
 .arrivals-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 32px;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+.carousel-btn {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1.5px solid #446657;
+    background-color: transparent;
+    color: #446657;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: #446657;
+    color: #E5FFF0;
 }
 
 .arrivals-card {
@@ -502,10 +537,16 @@
         text-decoration: underline;
     }
 
+    .arrivals-carousel {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .carousel-btn {
+        display: none;
+    }
+
     .arrivals-cards {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 16px;
         width: 100%;
     }
 

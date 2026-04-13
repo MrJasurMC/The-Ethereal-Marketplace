@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/manrope-v20-latin-regular.woff2') format('woff2');
+}
 *{
     margin: 0;
     padding: 0;

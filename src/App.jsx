@@ -7,6 +7,7 @@ import Categories from "./pages/Categories/Categories.jsx"
 import Products from "./pages/Products/Products.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import NotFound from "./pages/NotFound/NotFound.jsx"
+import Modal from "./pages/modal/Modal.jsx"
 
 function App() {
   const [text, setText] = useState("")
@@ -19,8 +20,9 @@ function App() {
         <Route path='/categories' element={<Categories searchFilter={text} />} />
         <Route path='/products' element={<Products />} />
         <Route path='*' element={<NotFound />} />
+        <Route path='/modal/:id' element={<Modal />} />
       </Routes>
-      <Footer className="foter"/>
+      <Footer />
     </section>
   )
 }

@@ -1,146 +1,266 @@
 [
   {
-    "image": "https://picsum.photos/seed/terracotta_vessel/400/500",
+    "image": "/images/one.png",
     "name": "The Terra Cotta Vessel",
-    "description": "Wheel-thrown organic stoneware",
-    "price": 124.00
+    "description": "Wheel-thrown organic stoneware with earthy texture and warm natural tones inspired by ancient kiln firing techniques.",
+    "price": 124.0,
+    "discountPrice": 173.6,
+    "id": 1,
+    "material": "Tuscan Refined Clay",
+    "finish": "Matte Bone & Obsidian Slag",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/obscura_vase/400/500",
+    "image": "/images/two.png",
     "name": "Obscura Angular Vase",
-    "description": "Matte black minimalist stoneware",
-    "price": 185.00
+    "description": "Matte black minimalist stoneware with sharp geometric form and deep kiln-fired shadows.",
+    "price": 185.0,
+    "discountPrice": 259.0,
+    "id": 2,
+    "material": "Black Volcanic Stoneware Clay",
+    "finish": "Soft Matte Obsidian Glaze",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/azure_bottle/400/500",
+    "image": "/images/three.png",
     "name": "Azure Fracture Bottle",
-    "description": "Hand-glazed coastal blue ceramic",
-    "price": 210.00
+    "description": "Hand-glazed ceramic bottle with oceanic crackle glaze and fluid coastal tones.",
+    "price": 210.0,
+    "discountPrice": 294.0,
+    "id": 3,
+    "material": "Porcelain Stone Blend",
+    "finish": "Glossy Azure Crackle Glaze",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/alabaster_pair/400/500",
+    "image": "/images/four.png",
     "name": "Ribbed Alabaster Pair",
-    "description": "Soft-textured white stoneware set",
-    "price": 98.00
+    "description": "Soft-textured white stoneware set with subtle ribbing and minimal Nordic-inspired form.",
+    "price": 98.0,
+    "discountPrice": 137.2,
+    "id": 4,
+    "material": "White Kaolin Porcelain Clay",
+    "finish": "Satin Matte Alabaster Glaze",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/kintsugi_form/400/500",
+    "image": "/images/five.png",
     "name": "Charred Kintsugi Form",
-    "description": "Raku-fired with gold lacquer repairs",
-    "price": 340.00
+    "description": "Raku-fired vessel repaired with gold lacquer, celebrating imperfection and fractured beauty.",
+    "price": 340.0,
+    "discountPrice": 476.0,
+    "id": 5,
+    "material": "Raku Clay Body",
+    "finish": "Charred Matte with Gold Kintsugi Lacquer",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/rose_vessel/400/500",
+    "image": "/images/six.png",
     "name": "Rose Bloom Vessel",
-    "description": "Pastel-striped thrown porcelain",
-    "price": 115.00
+    "description": "Pastel-striped porcelain vessel with soft gradient tones and delicate handcrafted detailing.",
+    "price": 115.0,
+    "discountPrice": 161.0,
+    "id": 6,
+    "material": "Fine Porcelain Clay",
+    "finish": "Soft Satin Pastel Glaze",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/bizen_jar/400/500",
+    "image": "/images/seven.png",
     "name": "Indigo Bizen Jar",
-    "description": "Wood-fired traditional Japanese ware",
-    "price": 275.00
+    "description": "Wood-fired traditional Japanese jar with natural ash deposits and deep kiln markings.",
+    "price": 275.0,
+    "discountPrice": 385.0,
+    "id": 7,
+    "material": "Bizen Clay (Iron-rich Natural Clay)",
+    "finish": "Wood-fired Ash & Indigo Burnish",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/sage_crock/400/500",
+    "image": "/images/eight.png",
     "name": "Speckled Sage Crock",
-    "description": "Salt-glazed farmhouse stoneware",
-    "price": 89.00
+    "description": "Rustic farmhouse stoneware crock with natural speckling and durable utilitarian form.",
+    "price": 89.0,
+    "discountPrice": 124.6,
+    "id": 8,
+    "material": "Stoneware Clay",
+    "finish": "Salt-Glazed Speckled Matte",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/ash_platter/400/500",
+    "image": "/images/nine.png",
     "name": "Ash Drift Platter",
-    "description": "Ash-glazed wide serving stoneware",
-    "price": 165.00
+    "description": "Wide serving platter with organic ash glaze patterns formed during high-temperature firing.",
+    "price": 165.0,
+    "discountPrice": 231.0,
+    "id": 9,
+    "material": "Stoneware Clay",
+    "finish": "Natural Ash Glaze Satin Finish",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/celadon_bowl/400/500",
+    "image": "/images/ten.png",
     "name": "Midnight Celadon Bowl",
-    "description": "Deep celadon glazed porcelain bowl",
-    "price": 148.00
+    "description": "Deep celadon glazed porcelain bowl with tranquil glossy surface and smooth silhouette.",
+    "price": 148.0,
+    "discountPrice": 207.2,
+    "id": 10,
+    "material": "Porcelain Clay",
+    "finish": "Deep Celadon Gloss Glaze",
+    "filterType": "Ceramics"
   },
   {
-    "image": "https://picsum.photos/seed/linen_throw/400/500",
+    "image": "/images/eleven.png",
     "name": "Hammam Linen Throw",
-    "description": "Striped 100% Turkish woven linen",
-    "price": 95.00
+    "description": "Lightweight striped Turkish linen throw, breathable and naturally textured for everyday comfort.",
+    "price": 95.0,
+    "discountPrice": 133.0,
+    "id": 11,
+    "material": "100% Turkish Linen",
+    "finish": "Washed Soft Woven Texture",
+    "filterType": "Textiles"
   },
   {
-    "image": "https://picsum.photos/seed/shibori_runner/400/500",
+    "image": "/images/twelve.png",
     "name": "Shibori Indigo Runner",
-    "description": "Hand-dyed resist-patterned cotton",
-    "price": 230.00
+    "description": "Hand-dyed cotton runner featuring traditional Japanese resist-dye patterns in deep indigo tones.",
+    "price": 230.0,
+    "discountPrice": 322.0,
+    "id": 12,
+    "material": "Organic Cotton",
+    "finish": "Indigo Shibori Dye Finish",
+    "filterType": "Textiles"
   },
   {
-    "image": "https://picsum.photos/seed/desert_cushion/400/500",
+    "image": "/images/thirteen.png",
     "name": "Desert Wool Cushion",
-    "description": "Hand-spun Berber-style wool cushion",
-    "price": 78.00
+    "description": "Hand-spun Berber-style cushion with earthy tones and soft tactile wool texture.",
+    "price": 78.0,
+    "discountPrice": 109.2,
+    "id": 13,
+    "material": "Hand-Spun Wool",
+    "finish": "Natural Undyed Wool Weave",
+    "filterType": "Textiles"
   },
   {
-    "image": "https://picsum.photos/seed/jute_rug/400/500",
+    "image": "/images/fourteen.png",
     "name": "Loom Cut Jute Rug",
-    "description": "Natural flat-weave jute floor rug",
-    "price": 320.00
+    "description": "Handwoven natural jute rug with earthy fibers and strong organic texture for interior spaces.",
+    "price": 320.0,
+    "discountPrice": 448.0,
+    "id": 14,
+    "material": "Natural Jute Fiber",
+    "finish": "Raw Handwoven Matte Weave",
+    "filterType": "Textiles"
   },
   {
-    "image": "https://picsum.photos/seed/batik_canopy/400/500",
+    "image": "/images/fifteen.png",
     "name": "Gauze Batik Canopy",
-    "description": "Silk-cotton batik draped canopy",
-    "price": 185.00
+    "description": "Light silk-cotton canopy with hand-dyed batik patterns and flowing drape aesthetic.",
+    "price": 185.0,
+    "discountPrice": 259.0,
+    "id": 15,
+    "material": "Silk-Cotton Blend",
+    "finish": "Hand-Dyed Batik Soft Matte",
+    "filterType": "Textiles"
   },
   {
-    "image": "https://picsum.photos/seed/rattan_stool/400/500",
+    "image": "/images/sixteen.png",
     "name": "Rattan Low Stool",
-    "description": "Woven rattan and teak accent stool",
-    "price": 260.00
+    "description": "Handwoven rattan stool with solid teak structure, perfect as an accent or functional seating piece.",
+    "price": 260.0,
+    "discountPrice": 364.0,
+    "id": 16,
+    "material": "Natural Rattan & Teak Wood",
+    "finish": "Handwoven Natural Matte Finish",
+    "filterType": "Furniture"
   },
   {
-    "image": "https://picsum.photos/seed/paperclay_lamp/400/500",
+    "image": "/images/seventeen.png",
     "name": "Paperclay Lamp Base",
-    "description": "Sculptural paperclay with linen shade",
-    "price": 380.00
+    "description": "Sculptural paperclay lamp base paired with linen shade for soft ambient lighting.",
+    "price": 380.0,
+    "discountPrice": 532.0,
+    "id": 17,
+    "material": "Paperclay Composite",
+    "finish": "Textured Matte Stone Finish",
+    "filterType": "Furniture"
   },
   {
-    "image": "https://picsum.photos/seed/brass_hook/400/500",
+    "image": "/images/eighteen.png",
     "name": "Bent Brass Hook Rail",
-    "description": "Hand-bent solid brass wall hooks",
-    "price": 175.00
+    "description": "Minimalist hand-bent brass hook rail designed for modern interiors and functional storage.",
+    "price": 175.0,
+    "discountPrice": 245.0,
+    "id": 18,
+    "material": "Solid Brass",
+    "finish": "Brushed Satin Brass",
+    "filterType": "Furniture"
   },
   {
-    "image": "https://picsum.photos/seed/cane_chair/400/500",
+    "image": "/images/nineteen.png",
     "name": "Cane Meditation Chair",
-    "description": "Open-weave cane and solid beech",
-    "price": 640.00
+    "description": "Open-weave cane chair with solid beech frame designed for relaxation and mindful seating.",
+    "price": 640.0,
+    "discountPrice": 896.0,
+    "id": 19,
+    "material": "Cane & Beech Wood",
+    "finish": "Natural Handwoven Matte Cane",
+    "filterType": "Furniture"
   },
   {
-    "image": "https://picsum.photos/seed/neroli_oil/400/500",
+    "image": "/images/twenty.png",
     "name": "Neroli Ritual Oil",
-    "description": "Cold-pressed neroli and jojoba blend",
-    "price": 68.00
+    "description": "Cold-pressed neroli and jojoba blend crafted for aromatherapy and skin nourishment.",
+    "price": 68.0,
+    "discountPrice": 95.2,
+    "id": 20,
+    "material": "Neroli Essential Oil & Jojoba Base",
+    "finish": "Amber Glass Bottle Finish",
+    "filterType": "Apothecary"
   },
   {
-    "image": "https://picsum.photos/seed/beeswax_candle/400/500",
+    "image": "/images/twentyone.png",
     "name": "Beeswax Pillar Candle",
-    "description": "Raw unscented pure beeswax pillar",
-    "price": 42.00
+    "description": "Pure unscented beeswax candle offering a warm natural glow and long burn time.",
+    "price": 42.0,
+    "discountPrice": 58.8,
+    "id": 21,
+    "material": "100% Pure Beeswax",
+    "finish": "Raw Matte Natural Wax Finish",
+    "filterType": "Apothecary"
   },
   {
-    "image": "https://picsum.photos/seed/rose_serum/400/500",
+    "image": "/images/twentytwo.png",
     "name": "Fermented Rose Serum",
-    "description": "Lacto-fermented rose and rosehip serum",
-    "price": 112.00
+    "description": "Lacto-fermented rosehip serum enriched with botanical actives for skin renewal and hydration.",
+    "price": 112.0,
+    "discountPrice": 156.8,
+    "id": 22,
+    "material": "Rose Extract & Rosehip Oil Blend",
+    "finish": "Amber Dropper Glass Finish",
+    "filterType": "Apothecary"
   },
   {
-    "image": "https://picsum.photos/seed/dried_botanicals/400/500",
+    "image": "/images/one.png",
     "name": "Dried Botanicals Bundle",
-    "description": "Wild-harvested Tuscan dried botanicals",
-    "price": 55.00
+    "description": "Wild-harvested Tuscan botanicals carefully dried for decorative and aromatic use.",
+    "price": 55.0,
+    "discountPrice": 77.0,
+    "id": 23,
+    "material": "Dried Wild Botanicals",
+    "finish": "Natural Air-Dried Organic Finish",
+    "filterType": "Apothecary"
   },
   {
-    "image": "https://picsum.photos/seed/incense_holder/400/500",
+    "image": "/images/two.png",
     "name": "Smoked Clay Incense Holder",
-    "description": "Smoke-fired altar clay dish",
-    "price": 64.00
+    "description": "Smoke-fired clay incense holder designed for ritual use and minimalist interiors.",
+    "price": 64.0,
+    "discountPrice": 89.6,
+    "id": 24,
+    "material": "Smoked Earthen Clay",
+    "finish": "Smoke-Fired Matte Black Finish",
+    "filterType": "Ceramics"
   }
 ]

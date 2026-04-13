@@ -4,7 +4,7 @@
     align-items: start;
     justify-content: space-between;
     gap: 48px;
-    padding: 64px 48px;
+    padding: 34px 48px;
 }
 
 .categories-filter {
@@ -58,6 +58,13 @@
     border-radius: 4px;
 }
 
+.categories-filter-ul li.active {
+    color: #064E3B;
+    background-color: #ECFDF5;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
 .categories-filter-button {
     width: 100%;
     height: 44px;
@@ -77,7 +84,6 @@
 }
 
 .categories-items {
-    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -199,7 +205,6 @@
 .categories-cards {
     height: 1493px;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 40px;
     overflow-x: hidden;
@@ -230,8 +235,14 @@
 }
 
 .categories-card p {
+    width: 256px;
     color: #5B6061;
     font-size: 13px;
+}
+.categories-card span{
+    color: #446657;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .categories-card .card-price {
@@ -274,8 +285,8 @@
     }
 
     .categories-items {
-        gap: 0;
         width: 100%;
+        gap: 0;
     }
 
     .categories-items-header {
@@ -299,11 +310,19 @@
     .categories-card {
         width: 163px;
         height: 303px;
+        margin-top: 30px;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        flex-direction: column;
     }
 
     .categories-card img {
         width: 163px;
         height: 303px;
+    }
+    .categories-card p{
+        width: 163px;
     }
     .objects{
         width: 999px;
@@ -314,4 +333,10 @@
         margin-left: 5px;
         cursor: pointer;
     }
+}
+.categories-no-results {
+    color: #5B6061;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 40px 0;
 }
