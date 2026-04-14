@@ -1,5 +1,6 @@
 import "./Home.css"
 import { Link } from 'react-router-dom';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import heroimg from "./assets/heroimg.png"
 import herocard from "./assets/herocard.png"
 import chair from "./assets/chair.png"
@@ -9,12 +10,7 @@ import pillow from "./assets/pillow.png"
 import paint from "./assets/paint.png"
 import feather from "./assets/feather.png"
 import shoes from "./assets/shoes.png"
-import { FaArrowRight } from "react-icons/fa";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
+import { FaArrowRight, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const CARDS = [
   { img: herocard, alt: "Scandi Ceramic Vessel", name: "Scandi Ceramic Vessel", price: "$120", desc: "Artisan-crafted ceramic vase with a unique volcanic glaze finish. Perfect fo…" },
@@ -27,7 +23,38 @@ const CARDS = [
   { img: shoes, alt: "Vachetta Home Slipper", name: "Vachetta Home Slipper", price: "$145", desc: "Full-grain vegetable-tanned leather with a cushioned ergonomic sole for interior…" },
 ];
 
+const CARD_WIDTH = 272;
+const CARD_GAP = 32;
+const STEP = CARD_WIDTH + CARD_GAP;
+const VISIBLE = 4;
+const MAX_INDEX = CARDS.length - VISIBLE;
+const AUTO_INTERVAL = 10000;
+
 function Home() {
+  const [index, setIndex] = useState(0);
+  const timerRef = useRef(null);
+
+  const next = useCallback(() => {
+    setIndex(i => (i >= MAX_INDEX ? 0 : i + 1));
+  }, []);
+
+  const prev = useCallback(() => {
+    setIndex(i => (i <= 0 ? MAX_INDEX : i - 1));
+  }, []);
+
+  const resetTimer = useCallback(() => {
+    clearInterval(timerRef.current);
+    timerRef.current = setInterval(next, AUTO_INTERVAL);
+  }, [next]);
+
+  useEffect(() => {
+    resetTimer();
+    return () => clearInterval(timerRef.current);
+  }, [resetTimer]);
+
+  const handlePrev = () => { prev(); resetTimer(); };
+  const handleNext = () => { next(); resetTimer(); };
+
   return (
     <section className='home'>
       <div className="hero">
@@ -60,39 +87,32 @@ function Home() {
         </div>
 
         <div className="arrivals-carousel">
-          <Swiper
-            modules={[Navigation, Autoplay]}
-            spaceBetween={32}
-            slidesPerView={4}
-            navigation
-            loop={true}
-            autoplay={{
-              delay: 3000,
-              disableOnInteraction: false,
-            }}
-            breakpoints={{
-              0: { slidesPerView: 1 },
-              640: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
-            }}
-          >
-            {CARDS.map((card, i) => (
-              <SwiperSlide key={i}>
-                <div className="arrivals-card">
+          <button className="carousel-btn carousel-btn-left" onClick={handlePrev}>
+            <FaChevronLeft />
+          </button>
+
+          <div className="arrivals-carousel-viewport">
+            <div
+              className="arrivals-cards"
+              style={{ transform: `translateX(-${index * STEP}px)` }}
+            >
+              {CARDS.map((card, i) => (
+                <div className="arrivals-card" key={i}>
                   <img src={card.img} alt={card.alt} loading="lazy" />
                   <div className="arrivals-card-header">
                     <h3>{card.name}</h3>
                     <span>{card.price}</span>
                   </div>
                   <p>{card.desc}</p>
-                  <Link className='arrivals-card-link' to="/">
-                    View Details <FaArrowRight />
-                  </Link>
+                  <Link className='arrivals-card-link' to="/">View Details <FaArrowRight /></Link>
                 </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+              ))}
+            </div>
+          </div>
+
+          <button className="carousel-btn carousel-btn-right" onClick={handleNext}>
+            <FaChevronRight />
+          </button>
         </div>
 
         <button className="arrivals-btn">Discover More Creations</button>
@@ -108,7 +128,6 @@ function Home() {
         </div>
         <span>Inspired by intention. Never spam.</span>
       </div>
-
       <div className="journal">
         <span>Journal</span>
         <h3>The Art of Intentional Living</h3>

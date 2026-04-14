@@ -12,7 +12,7 @@ function Categories({ searchFilter = "" }) {
     const matchesSearch = item.name.toLowerCase().includes(searchFilter.toLowerCase());
     const matchesFilter = activeFilter === "All" || item.filterType === activeFilter;
     return matchesSearch && matchesFilter;
-  });
+  })
 
   return (
     <section className='categories'>
